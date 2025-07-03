@@ -16,6 +16,4 @@ RUN bundle _2.3.6_ install
 
 COPY . . 
 
-# ENTRYPOINT [ "./entrypoint.sh" ]
-
 CMD ["rails", "server", "-b", "0.0.0.0"]
